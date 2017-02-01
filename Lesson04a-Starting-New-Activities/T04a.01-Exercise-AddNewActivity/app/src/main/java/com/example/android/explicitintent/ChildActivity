@@ -1,0 +1,11 @@
+package com.demo.free;
+import android.widget.TextView;
+import android.os.Bundle;
+public class ChildActivity extends Activity{
+@override 
+protected void onCreate(Bundle savedInstanceState){
+super.onCreate(savedInstanceState);
+setContentView(R.layput.activity_child);
+TextView tv_display = (TextView)findViewById(R.id.txt_display);
+}
+}
